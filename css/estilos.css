@@ -1,0 +1,114 @@
+/* Estilos Base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9f5ff; /* Azul muy claro, fresco */
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Encabezado */
+header {
+    background-color: #007bff; /* Azul primario */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ffc107; /* Amarillo de acento */
+}
+
+/* --- Rotador de Propiedades (CSS ESENCIAL) --- */
+#rotador-propiedades {
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative; /* Necesario para los controles */
+    margin-bottom: 30px;
+}
+
+.propiedad-item {
+    display: flex; /* Para que la imagen y la info estén lado a lado */
+    width: 100%;
+}
+
+.propiedad-item img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.propiedad-info {
+    width: 50%;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.precio {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #28a745; /* Verde para el precio */
+    margin: 10px 0;
+}
+
+/* Controles de Rotador */
+.controles button {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px 5px 0 0;
+}
+
+/* Sección Contacto */
+#contacto form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contacto form input, #contacto form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contacto form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
